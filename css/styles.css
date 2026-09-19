@@ -1,3 +1,9 @@
+/* ============================================================================
+   Expense & Budget Visualizer - Main Stylesheet
+   A modern, responsive design with dark/light theme support
+   ============================================================================ */
+
+/* CSS Variables for Light Theme (Default) */
 :root {
     --bg-primary: #ffffff;
     --bg-secondary: #f5f5f5;
@@ -13,6 +19,7 @@
     --shadow-color: rgba(0, 0, 0, 0.1);
 }
 
+/* CSS Variables for Dark Theme */
 [data-theme="dark"] {
     --bg-primary: #1a1a1a;
     --bg-secondary: #2d2d2d;
@@ -25,12 +32,14 @@
     --shadow-color: rgba(0, 0, 0, 0.3);
 }
 
+/* Global Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Body Styles */
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     background-color: var(--bg-primary);
@@ -40,6 +49,7 @@ body {
     padding: 20px;
 }
 
+/* Header Styles */
 header {
     display: flex;
     justify-content: space-between;
@@ -55,6 +65,7 @@ h1 {
     color: var(--text-primary);
 }
 
+/* Theme Toggle Button */
 .theme-toggle {
     background-color: var(--accent-color);
     color: #ffffff;
@@ -75,11 +86,13 @@ h1 {
     transform: scale(0.98);
 }
 
+/* Container */
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
+/* Section Spacing */
 .transaction-form-section,
 .budget-section,
 .summary-chart-section,
@@ -87,6 +100,7 @@ h1 {
     margin-bottom: 30px;
 }
 
+/* Section Headings */
 .transaction-form-section h2,
 .budget-section h2,
 .summary-container h2,
@@ -98,6 +112,7 @@ h1 {
     color: var(--text-primary);
 }
 
+/* Form Sections */
 .transaction-form-section,
 .budget-section {
     background-color: var(--bg-secondary);
@@ -106,6 +121,7 @@ h1 {
     border: 1px solid var(--border-color);
 }
 
+/* Form Row - Responsive Grid */
 .form-row {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -113,6 +129,7 @@ h1 {
     margin-bottom: 15px;
 }
 
+/* Form Group */
 .form-group {
     display: flex;
     flex-direction: column;
@@ -125,6 +142,7 @@ h1 {
     color: var(--text-primary);
 }
 
+/* Form Inputs */
 .form-group input,
 .form-group select {
     padding: 10px 12px;
@@ -148,6 +166,7 @@ h1 {
     border-color: var(--error-color);
 }
 
+/* Form Error Messages */
 .form-error {
     color: var(--error-color);
     font-size: 13px;
@@ -162,12 +181,14 @@ h1 {
     display: block;
 }
 
+/* Form Actions */
 .form-actions {
     display: flex;
     justify-content: flex-end;
     margin-top: 20px;
 }
 
+/* Button Styles */
 .btn {
     padding: 10px 24px;
     font-size: 14px;
@@ -202,6 +223,7 @@ h1 {
     background-color: #c82333;
 }
 
+/* Budget Form Specific Styles */
 .budget-form .form-row {
     display: flex;
     gap: 15px;
@@ -216,6 +238,7 @@ h1 {
     margin-top: auto;
 }
 
+/* Summary and Chart Section Grid */
 .summary-chart-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -228,6 +251,7 @@ h1 {
     }
 }
 
+/* Summary Container */
 .summary-container {
     background-color: var(--bg-secondary);
     padding: 25px;
@@ -241,6 +265,7 @@ h1 {
     gap: 10px;
 }
 
+/* Summary Item */
 .summary-item {
     display: flex;
     justify-content: space-between;
@@ -265,11 +290,13 @@ h1 {
     color: var(--text-primary);
 }
 
+/* Negative and Over Budget Styling */
 .summary-value.negative,
 .summary-value.over-budget {
     color: var(--warning-color);
 }
 
+/* Budget Warning */
 .budget-warning {
     background-color: rgba(220, 53, 69, 0.1);
     border-left: 4px solid var(--warning-color);
@@ -284,6 +311,7 @@ h1 {
     font-weight: 500;
 }
 
+/* Chart Container */
 .chart-container {
     background-color: var(--bg-secondary);
     padding: 25px;
@@ -306,6 +334,7 @@ h1 {
     height: auto;
 }
 
+/* Chart Legend */
 .chart-legend {
     margin-top: 20px;
     width: 100%;
@@ -336,6 +365,7 @@ h1 {
     color: var(--text-secondary);
 }
 
+/* Transaction List Section */
 .transaction-list-section {
     background-color: var(--bg-secondary);
     padding: 25px;
@@ -348,6 +378,7 @@ h1 {
     flex-direction: column;
 }
 
+/* Transaction Item */
 .transaction-item {
     display: grid;
     grid-template-columns: 120px 130px 1fr 120px 80px;
@@ -366,6 +397,7 @@ h1 {
     border-bottom: none;
 }
 
+/* Transaction Item Elements */
 .transaction-date {
     font-size: 14px;
     color: var(--text-secondary);
@@ -393,6 +425,7 @@ h1 {
     text-align: right;
 }
 
+/* Transaction Amount Colors */
 .transaction-amount.positive {
     color: var(--success-color);
 }
@@ -401,11 +434,13 @@ h1 {
     color: var(--error-color);
 }
 
+/* Transaction Actions */
 .transaction-actions {
     display: flex;
     justify-content: center;
 }
 
+/* Empty State */
 .empty-state {
     text-align: center;
     padding: 40px 20px;
@@ -413,6 +448,7 @@ h1 {
     font-size: 16px;
 }
 
+/* Storage Warning */
 .storage-warning {
     background-color: rgba(255, 193, 7, 0.15);
     border-left: 4px solid #ffc107;
@@ -422,6 +458,7 @@ h1 {
     color: var(--text-primary);
 }
 
+/* Responsive Design - Medium Screens */
 @media (max-width: 968px) {
     .transaction-item {
         grid-template-columns: 100px 110px 1fr 100px 70px;
@@ -429,6 +466,7 @@ h1 {
     }
 }
 
+/* Responsive Design - Mobile */
 @media (max-width: 768px) {
     body {
         padding: 15px;
@@ -476,6 +514,7 @@ h1 {
     }
 }
 
+/* Responsive Design - Small Mobile */
 @media (max-width: 480px) {
     h1 {
         font-size: 20px;
@@ -490,6 +529,7 @@ h1 {
     }
 }
 
+/* Utility Classes */
 .hidden {
     display: none;
 }

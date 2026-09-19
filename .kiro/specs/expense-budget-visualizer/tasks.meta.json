@@ -1,0 +1,286 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Set up project structure and HTML foundation": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729264223
+      },
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729302453
+      },
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729632325
+      }
+    ],
+    "2.1 Create StorageManager class in `js/app.js`": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729264936
+      },
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729639814
+      },
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789730085897
+      }
+    ],
+    "2.3 Define data model constants and structures": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729265396
+      },
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729640801
+      },
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789730086821
+      }
+    ],
+    "3.1 Create TransactionManager class": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729266474
+      },
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789730095294
+      },
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789730376019
+      }
+    ],
+    "3.2 Implement transaction validation logic": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729266843
+      },
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789730698936
+      }
+    ],
+    "4.1 Create BudgetManager class": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729266986
+      },
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789730732876
+      },
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789730960459
+      }
+    ],
+    "5. Checkpoint - Core data management complete": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729267120
+      },
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789730973744
+      },
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789731284988
+      }
+    ],
+    "6.1 Create SummaryCalculator class": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729269714
+      },
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789731293661
+      }
+    ],
+    "7.1 Create ChartRenderer class using Canvas API": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729270261
+      },
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789731294473
+      }
+    ],
+    "8.1 Create ThemeManager class": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729270462
+      },
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789731295379
+      }
+    ],
+    "9.1 Create `css/styles.css` with CSS variables and theme support": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729270679
+      },
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789731296682
+      }
+    ],
+    "10.1 Create UIController class with initialization": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729271318
+      }
+    ],
+    "10.2 Implement transaction form event handler": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729272053
+      }
+    ],
+    "10.3 Implement transaction deletion event handler": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729272694
+      }
+    ],
+    "10.4 Implement budget update event handler": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729273593
+      }
+    ],
+    "10.5 Implement theme toggle event handler": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729274606
+      }
+    ],
+    "11.1 Implement transaction list rendering": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729276947
+      }
+    ],
+    "11.2 Implement summary rendering": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729278241
+      }
+    ],
+    "11.3 Implement chart rendering integration": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729281725
+      }
+    ],
+    "11.4 Implement master updateUI() method": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729282785
+      }
+    ],
+    "12.1 Create error display methods": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729283364
+      }
+    ],
+    "13.1 Add visual feedback for user interactions": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729284554
+      }
+    ],
+    "13.2 Implement date input default value": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729285328
+      }
+    ],
+    "13.3 Add number input step and min attributes": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729287766
+      }
+    ],
+    "14. Final checkpoint - Complete testing and validation": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789729289497
+      }
+    ],
+    "2. Implement core storage manager and data models": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789730087057
+      }
+    ],
+    "3. Implement transaction manager with validation": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789730699432
+      }
+    ],
+    "4. Implement budget manager": [
+      {
+        "executionId": "b0e39558-2b1b-4d29-aa84-f676727f077d",
+        "chatSessionId": "sess_113f4304-4879-4d63-8dc9-bbbc64b73413",
+        "timestamp": 1789730960640
+      }
+    ]
+  }
+}
